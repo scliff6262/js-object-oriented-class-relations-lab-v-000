@@ -14,6 +14,10 @@ class Driver {
     store.drivers.push(this)
   }
 
+
+  trips(){
+    store.trips.filter(function(trip){return trip.driverId === this.id})
+  }
 }
 
 let passengerId = 0;
