@@ -1,5 +1,5 @@
 class Driver {
-  let driverId = 0
+  let idCounter = 0
   constructor(name){
     this.name = name
   }
