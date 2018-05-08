@@ -20,7 +20,7 @@ class Driver {
   }
 
   passengers(){
-    this.trips().map(function(trip){return trip.passengerId})
+    this.trips().map(function(trip){return trip.passenger()})
   }
 
 }
