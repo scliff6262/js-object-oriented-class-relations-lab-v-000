@@ -43,6 +43,7 @@ class Trip {
   }
 
   driver(){
-    store.drivers.filter(function(driver){return driver.id === this.driverId})
+    const driver = store.drivers.filter(function(driver){return driver.id === this.driverId})
+    return driver[0]
   }
 }
