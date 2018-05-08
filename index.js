@@ -1,9 +1,9 @@
 let driverId = 0
 
 let store = {
-  drivers = [],
-  passengers = [],
-  trips = []
+  drivers: [],
+  passengers: [],
+  trips: []
 }
 
 class Driver {
