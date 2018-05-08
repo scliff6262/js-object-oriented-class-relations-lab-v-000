@@ -8,8 +8,4 @@ class Driver {
     this.store = []
   }
 
-  store(){
-
-  }
-
 }
